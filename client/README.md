@@ -1,34 +1,56 @@
-# Event Planner
-![event-planner](https://github.com/marisereda/event-planner/assets/105078220/7e6ea32b-6282-4cf2-9705-c45763593476)
+## Project Planner
 
-Event Planner is an app for planning events. The user can add new events, edit and delete the previous ones. There is a search option by categories and keywords. For more convenience, the events can be marked with a priority chip.
+[Snippy](https://event-planner-gfex.vercel.app/) - An Event Planner with Copilot and Shadcn-UI.
 
-## Technology stack
+The Event Planner web application allows users to manage events with features like creating, editing, and deleting events. It includes a user-friendly interface displaying event details such as title, description, date, time, location, category, and priority. Events are displayed in card format, making it easy to view and interact with. Additionally, the app integrates Copilot Assistant, which aids users by providing suggestions and automating certain tasks.
 
-- React
-- React Router
-- Redux Toolkit
-- Tailwind
-- Vite
+It's built using modern web technologies such as React, Next.js, TailwindCSS, Shadcn-UI and integrates a backend API for event management.
 
-## Run locally
+## Name of Issue/Topic
 
-Clone the project
+05 - Event Planner (Hacktoberfest Demo)
 
-```bash
-  git clone https://github.com/marisereda/event-planner
-```
+## Technologies Being Used
 
-Install dependencies
+- Next.js: React Framework
+- React: JavaScript library for building user interfaces
+- CopilotKit: Ai Copilots
+- TypeScript: JavaScript with types
+- TailwindCSS: utility-first CSS framework
+- Shadncn: UI Component Styling
 
-```bash
-  npm install
-```
+## App Link
 
-Start the app
+- [Snippy Live Demo](https://event-planner-gfex.vercel.app/)
+- [Repo](https://github.com/Zedoman/Event-Planner)
 
-```bash
-  npm run dev
-```
-## Live application
-[Event Planner](https://wondrous-licorice-a32fe5.netlify.app/)
+
+## Bonus Points
+
+Link to any bonus activities you did such as solving GitHub Issues or posting to Twitter, Dev.to, Medium, etc.
+Dev.to[https://dev.to/avradeep_nayak_fa8d5f6995] -> https://dev.to/avradeep_nayak_fa8d5f6995/event-planner-3k2
+Medium -> https://medium.com/@12346arjo/event-planner-abfba6a2eadb
+
+## Screenshots
+
+### create, update, and delete Event
+<img width="1657" alt="Screenshot 2024-10-04 at 18 54 50" src="https://github.com/user-attachments/assets/999200d5-5e1e-4f48-a293-477f3e68f08a">
+<img width="1680" alt="Screenshot 2024-10-04 at 18 54 38" src="https://github.com/user-attachments/assets/0dfe4ae5-9a7a-4cf4-bfb8-f078e39c2ab8">
+<img width="1635" alt="Screenshot 2024-10-04 at 18 53 46" src="https://github.com/user-attachments/assets/5ca40f69-c1ca-4585-840a-984d05ce755c">
+
+
+
+### Home Page
+<img width="1632" alt="Screenshot 2024-10-04 at 18 56 48" src="https://github.com/user-attachments/assets/3d98cf1c-b9e3-4b00-9460-45e186989f59">
+
+
+
+### CopilotChat chat
+
+<img width="689" alt="Screenshot 2024-10-04 at 18 57 24" src="https://github.com/user-attachments/assets/d05207f8-7ffb-4367-b96b-53157957dc00">
+
+
+## Who Are You?
+
+- [Avradeep](https://github.com/Zedoman)
+- [Avradeep on Linkedin](https://www.linkedin.com/in/avradeep-nayak-7604b5222/)
