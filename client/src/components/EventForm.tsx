@@ -72,11 +72,11 @@ export function EventForm({ className, event }: EventFormProps) {
     try {
       if (event) {
         // Update existing event
-        await axios.put(`http://localhost:3000/api/events/${id}`, eventData);
+        await axios.put(`https://event-planner-73j2.onrender.com/api/events/${id}`, eventData);
       } else {
         eventData.picture = getRandomPicrure(id);
         // Create new event
-        await axios.post('http://localhost:3000/api/events/', eventData);
+        await axios.post('https://event-planner-73j2.onrender.com/api/events/', eventData);
       }
       navigate(`/`);
     } catch (error) {

@@ -23,7 +23,7 @@ export const HomePage = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/events/');
+        const response = await fetch('https://event-planner-73j2.onrender.com/api/events/');
         
         if (!response.ok) {
           throw new Error('Network response was not ok');

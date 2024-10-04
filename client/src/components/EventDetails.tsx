@@ -23,7 +23,7 @@ export function EventDetails({ className }: EventDetailsProps) {
   useEffect(() => {
     const fetchEventDetails = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/api/events/${id}`); // Adjust the endpoint as needed
+        const response = await axios.get(`https://event-planner-73j2.onrender.com/api/events/${id}`); // Adjust the endpoint as needed
         setEvent(response.data); // Set the fetched event data
       } catch (error) {
         console.error('Error fetching event details:', error);
@@ -38,7 +38,7 @@ export function EventDetails({ className }: EventDetailsProps) {
   // Handle deletion of the event
   const handleDelete = async () => {
     try {
-      await axios.delete(`http://localhost:3000/api/events/${id}`); // Delete the event from the backend
+      await axios.delete(`https://event-planner-73j2.onrender.com/api/events/${id}`); // Delete the event from the backend
       dispatch(deleteEventAction(id)); // Dispatch the action to update the Redux state
       navigate('/'); // Navigate back to the events list
     } catch (error) {

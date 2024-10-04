@@ -11,7 +11,7 @@ export const useEventFromId = () => {
   useEffect(() => {
     const fetchEvent = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/api/events/${id}`); // Ensure backend is returning the correct data
+        const response = await axios.get(`https://event-planner-73j2.onrender.com/api/events/${id}`); // Ensure backend is returning the correct data
         setEvent(response.data); // Set the event data
       } catch (error) {
         console.error('Error fetching event:', error);
