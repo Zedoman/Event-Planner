@@ -1,8 +1,10 @@
 ## Project Planner
 
-[Snippy](https://snippy-self.vercel.app) - An Event Planner with Copilot and Shadcn-UI.
+[Snippy](https://event-planner-gfex.vercel.app/) - An Event Planner with Copilot and Shadcn-UI.
 
-Snippy is a code snippet manager that allows you to store and manage your code snippets in one place. Snippy uses CopilotKit to provide features for AI-powered code completion, code generation, and automation.
+The Event Planner web application allows users to manage events with features like creating, editing, and deleting events. It includes a user-friendly interface displaying event details such as title, description, date, time, location, category, and priority. Events are displayed in card format, making it easy to view and interact with. Additionally, the app integrates Copilot Assistant, which aids users by providing suggestions and automating certain tasks.
+
+It's built using modern web technologies such as React, Next.js, TailwindCSS, Shadcn-UI and integrates a backend API for event management.
 
 ## Name of Issue/Topic
 
@@ -19,10 +21,9 @@ Snippy is a code snippet manager that allows you to store and manage your code s
 
 ## App Link
 
-- [Snippy Live Demo](https://snippy-self.vercel.app)
-- [Repo](https://github.com/RohittCodes/snippy)
+- [Snippy Live Demo](https://event-planner-gfex.vercel.app/)
+- [Repo](https://github.com/Zedoman/Event-Planner)
 
-Deploy your app on [Vercel](https://vercel.com/new)
 
 ## Bonus Points
 
@@ -41,5 +42,5 @@ Link to any bonus activities you did such as solving GitHub Issues or posting to
 
 ## Who Are You?
 
-- [RohittCodes](https://github.com/RohittCodes)
-- [RohittCodes on X](https://x.com/RohittCodes)
+- [Avradeep](https://github.com/Zedoman)
+- [Avradeep on Linkedin](https://www.linkedin.com/in/avradeep-nayak-7604b5222/)
