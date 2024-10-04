@@ -28,6 +28,8 @@ It's built using modern web technologies such as React, Next.js, TailwindCSS, Sh
 ## Bonus Points
 
 Link to any bonus activities you did such as solving GitHub Issues or posting to Twitter, Dev.to, Medium, etc.
+Dev.to[https://dev.to/avradeep_nayak_fa8d5f6995] -> https://dev.to/avradeep_nayak_fa8d5f6995/event-planner-3k2
+Medium -> https://medium.com/@12346arjo/event-planner-abfba6a2eadb
 
 ## Screenshots
 
