@@ -10,6 +10,7 @@ export type IconName =
   | 'search';
 
 export interface Event {
+  _id: string;
   id: string;
   title: string;
   description?: string;

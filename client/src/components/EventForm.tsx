@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 import { nanoid } from 'nanoid';
 import { useController, useForm } from 'react-hook-form';
-import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { CATEGORIES, PRIORITIES } from '../constants';
 import { getDefaultTime, getRandomPicrure } from '../helpers';
@@ -24,7 +23,6 @@ interface EventFormProps {
 type Inputs = Omit<Event, 'id'>;
 
 export function EventForm({ className, event }: EventFormProps) {
-  const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const {

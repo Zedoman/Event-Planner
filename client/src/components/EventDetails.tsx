@@ -39,7 +39,7 @@ export function EventDetails({ className }: EventDetailsProps) {
   const handleDelete = async () => {
     try {
       await axios.delete(`https://event-planner-73j2.onrender.com/api/events/${id}`); // Delete the event from the backend
-      dispatch(deleteEventAction(id)); // Dispatch the action to update the Redux state
+      dispatch(deleteEventAction(id as string)); // Dispatch the action to update the Redux state
       navigate('/'); // Navigate back to the events list
     } catch (error) {
       console.error('Error deleting event:', error);
